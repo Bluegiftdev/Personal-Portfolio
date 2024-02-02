@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DContact Form</title>
+        <link rel="stylesheet" href="portfoliostyle.css">
+
+<!-- This is how we link a CSS TO HTML file. We use a link element -->
+<link rel="stylesheet" href="portfoliostyle.css">
+</head>
+<body>
+
+    <!-----MENU SECTION------>
+<div class="main-panel">
+    <div class="container">
+      <div class="width-33 logo">Port <span class="span-col">folio</span>
+      </div>
+      <div class="width-66">
+        <nav>
+          <a href="index.html">
+            <span class="span-col">Home</span>
+          </a>
+          <a href="aboutme.html">About me</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills</a>
+          <a href="myservices.html">My Services</a>
+          <a href="myportfolio.html">Portfolio</a>
+    <a href="testimonial.html">Testimonial</a>
+          <a href="contactme.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <h1>Contact Me</h1>
+    <form action="">
+    <div>
+        <label for="username">User Name</label>
+        <input type="text" id="username" name="username">
+    </div>
+<!-- indicates the username -->
+
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </div>
+<!-- indicates the user password -->
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+    </div>
+<!-- indicates email used by user -->
+
+    <div>
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+    </div>
+<!-- Gives an option to select the gender -->
+
+    <div>
+        <label for="Subscribe">Subscribe to Newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    </div>
+<!-- Gives user option to select checkbox so as to be added on the subscription list -->
+
+    <div>
+        <label for="country">Country</label>
+        <select name="country" id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+    </div>
+<!-- Gives user option to select country from a drop down -->
+
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="4" rows="50"></textarea>
+    </div>
+
+
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+
+
+</form>
+
+<!-- Footer section -->
+<div class="footer">
+    <div class="container">
+        <div class="foorer-sect social-icon width-50">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+             <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-linkedin"></i>
+                <a href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+        </div>
+        <div class="footer-sect mt-20 width-50">Copyright @ 2023 Dezven.com website template. All rights reserved</div>
+    </div>
+</div>
+</body>
+</html>
